@@ -1,0 +1,109 @@
+/*start footer */
+.footer{
+    background-color: #000000;
+    padding: 60px 0 0;
+  
+  
+  }
+  .footer .container{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(350px,1fr));
+    gap:40px; 
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer h3{
+    color: white;
+    font-size: 50px;
+  }
+  .footer .social {
+  display: flex;
+  }
+  .footer .social li a{
+    font-size: 24px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #0d15239c;
+    margin-right: 10px;
+    transition: 0.3s;
+    color: #f7eeee;
+  }
+  
+  .footer .social li a:hover{
+  
+  }
+  
+  .footer p{
+    line-height: 1.7;
+      color: #8d8282;
+      font-size: 16px;
+  }
+  
+  
+  .footer .box .links li{
+    color: white;
+    font-size: 23px;
+    transition: 0.3s;
+    padding:15px 0;
+    border-bottom: 1px solid #2b2626b3;
+  }
+  
+  .footer .box .links .icon{
+    color: white;
+  }
+  .footer .box .links li:hover{
+    padding-left: 12px;
+  }
+  
+  .footer .line{
+    display: flex;
+      align-items: center;
+      color: white;
+      margin-bottom: 26px;
+  }
+  
+  .footer .line .icon{
+    color: white;
+    font-size:41px;
+    margin-right :10px;
+  }
+  
+  .footer .line .info{
+   line-height:1.7 ;
+   flex:1;
+  }
+  
+  
+  
+  
+  
+  .footer .footer-gallery img{
+  width:85px;
+  border: 4px solid white;
+  margin:2px;
+  }
+
+  .icon_linkdn:hover{
+    color: #0099e5;
+  }
+
+  .icon_github:hover{
+    color: #7d3f98;
+  }
+
+  .icon.icon_forCall:hover{
+    color: #279b37;
+  }
+
+  .icon.icon_gmail:hover{
+    color: #ff0000;
+  }
+
+  
+  
+  
+  /*end footer */
+  
