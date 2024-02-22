@@ -3,12 +3,12 @@ import './Recedencies.css';
 import {Swiper, SwiperSlide, useSwiper} from 'swiper/react';
 import "swiper/css";
 import img1 from "../../assets/img/bl.png";
-import img2 from "../../assets/img/rr.jpeg";
+import img2 from "../../assets/img/rr.png";
 import img3 from "../../assets/img/D.png";
 import img4 from "../../assets/img/Dev.png";
 import img5 from "../../assets/img/r.png";
 import img6 from "../../assets/img/e.png";
-
+   
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 

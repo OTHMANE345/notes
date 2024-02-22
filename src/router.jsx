@@ -9,24 +9,13 @@ import DefaultLayout from './components/DefaultLayout';
 
 const router =  createBrowserRouter([
     {
-        path:'/',
+        path:'/portfolion',
         element:<DefaultLayout/>,
        
     },
    
 
-    // {
-    //     path:'/',
-    //     element:<GuestLayout/>,
-    //      children:[
-
-    //             {
-    //                 path:'/signup',
-    //                 element:<Form/>
-    //             },
-
-    //     ]
-    // },
+  
 
 
 ])
